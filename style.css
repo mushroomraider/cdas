@@ -1,0 +1,27 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background:black;
+  font-size: 30px;
+}
+canvas {
+  display: block;
+}
+
+#holder{
+  border-top:3px solid red;
+  border-bottom:3px solid red;
+  color:white;
+}
+.output{
+  color:white;
+}
+td{
+  border:1px solid cyan;
+  padding:3px;
+  
+}
+th{
+  text-align: left;
+  padding:3px;
+}
