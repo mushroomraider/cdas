@@ -7,7 +7,7 @@ let routes;
 
 function setup() {
   let c = createCanvas(150, 150);
-  background(200);
+  background(100, 130, 130);
   textAlign(CENTER);
   textSize(20);
   text('drop file', width / 2, height / 2);
@@ -15,7 +15,7 @@ function setup() {
 }
 
 function gotFile(file) {
-  background(200);
+  background("green");
   text('received file:', width / 2, height / 2);
   textSize(8);
   text(file.name, width / 2, height / 2 + 50);
