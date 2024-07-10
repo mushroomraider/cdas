@@ -15,7 +15,7 @@ function setup() {
 }
 
 function gotFile(file) {
-  background("green");
+  background(100, 255, 100);
   text('received file:', width / 2, height / 2);
   textSize(8);
   text(file.name, width / 2, height / 2 + 50);
